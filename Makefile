@@ -10,4 +10,4 @@ mkassoofs_SOURCES:
 
 clean:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
-rm mkassoofs
+	rm mkassoofs
